@@ -1,0 +1,64 @@
+/* Style for the body */
+body {
+    background-color: #f0f4e7; /* Light background */
+    font-family: Arial, sans-serif; /* Simple font */
+    color: #333; /* Dark text color */
+    margin: 0;
+    padding: 20px; /* Padding around the content */
+}
+
+/* Centering and styling forms */
+.center {
+    text-align: center; /* Center content */
+}
+
+/* Styling headings */
+h1, h2 {
+    color: #333;
+}
+
+/* Styling for button container */
+.button-container {
+    margin: 10px 0; /* Margin around buttons */
+}
+
+/* Styling input fields */
+input[type="text"], input[type="password"], input[type="submit"] {
+    padding: 5px; /* Padding for fields */
+    margin: 5px 0; /* Margin for spacing */
+    border-radius: 4px; /* Rounded corners */
+    border: 1px solid #ccc; /* Light border */
+}
+
+/* Styling submit buttons */
+input[type="submit"] {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor on hover */
+    padding: 10px 15px; /* Padding for buttons */
+    margin-right: 10px; /* Space between buttons */
+}
+
+/* Hover effect on submit buttons */
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Styling for the employee table */
+table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Remove gaps between cells */
+    margin-top: 20px; /* Margin above the table */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Light border */
+    padding: 8px; /* Padding for cells */
+    text-align: left; /* Left-align text */
+}
+
+th {
+    background-color: #4CAF50; /* Green background for header */
+    color: white; /* White text for header */
+}

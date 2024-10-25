@@ -1,0 +1,69 @@
+/* Style for the body */
+body {
+    background-color: #f0f4f7;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centering and styling the admin page */
+center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styling headings */
+h1, h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Styling the button container */
+.button-container {
+    margin-bottom: 20px;
+}
+
+/* Styling forms */
+form {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Styling the employee table */
+.employee-table {
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.employee-table th, .employee-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.employee-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Hover effect on table rows */
+.employee-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Styling action buttons */
+.action-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.action-button:hover {
+    background-color: #45a049;
+}
